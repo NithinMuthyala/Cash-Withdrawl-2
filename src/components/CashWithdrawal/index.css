@@ -1,0 +1,90 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #150b3e;
+  min-height: 300px;
+  width: 300px;
+  border-radius: 10px;
+}
+.letter-container {
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  color: #7c3aed;
+  background-color: #c7d2fe;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 13px;
+}
+.name-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+.name {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  align-self: center;
+  margin-left: 13px;
+}
+.balance-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.balance-item {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 18px;
+}
+.amount-item {
+  color: #d4d2db;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+.amount-container {
+  margin-right: 20px;
+}
+.rupee-item {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0px;
+  padding: 0px;
+}
+.withdraw-heading {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 18px;
+}
+.description {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 500;
+  margin-left: 18px;
+}
+.list-item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
